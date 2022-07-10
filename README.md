@@ -28,11 +28,13 @@ Holiday_Manager.py: Main program of the assessment
 
 **Important Features**
 
-1. All user input of dates should be in format of %Y-%m-%d (ex. 2020-01-01), Otherwise the program will print an error message and let user input the date again.
+1. All user input of dates should be in format of %Y-%m-%d (ex. 2020-01-01), Otherwise the program will print an error message and let the user input the date again.
 
 2. The View Holidays function only support view holidays in week1 through week 52 in 2000 to 2030. Try to avoid adding a holiday out side the range because you can not
 see the holiday in the python directly. (You can still see the holiday by saving the file to "Holiday_list.json" and view it from there).
 
-3. Since the Open Weather Map API only supports Historical Weather Data for the last 5 days, user will not be able to see the whole list of weather if user run the
-program in Weekends.
+3. Since the Open Weather Map API only supports Historical Weather Data for the last 5 days, the user will not be able to see the whole week of holidays and their 
+respective weather if user run theprogram in Weekends.
 
+4. There is a trigger to check whether all the changes are saved or not. The user can only save the list and export it to JSON when new changes are made in order to  
+make the program more efficient.
